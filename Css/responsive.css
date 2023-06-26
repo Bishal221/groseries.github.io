@@ -1,0 +1,366 @@
+@media (max-width: 576px) {
+  .menu_open {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .hero_left h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  .hero_left h1 span {
+    letter-spacing: -2px;
+  }
+  .hero {
+    margin: 1.5rem 0 3rem;
+  }
+  .hero_left > p {
+    font-size: 12px;
+  }
+  .main_btn > a {
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-right: 2rem;
+  }
+  .play_btn a {
+    padding: 9px 14px;
+    margin-right: 10px;
+  }
+  .play_btn a i {
+    font-size: 12px;
+  }
+  .play_btn span {
+    font-size: 12px;
+  }
+  .services {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+  .services .container h1 {
+    width: 80%;
+    font-size: 1.2rem;
+  }
+  .service_box {
+    grid-template-columns: 1fr;
+  }
+  .about .container .row .hero_right {
+    padding-left: 30px;
+  }
+  .about .container .row .hero_right h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .about .container .row .hero_right p {
+    font-size: 15px;
+    width: 90%;
+  }
+  .delivary .container .row .hero_left {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .delivary .container .row .hero_left h1 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+  .delivary .container .row .hero_left h1::before {
+    font-size: 15px;
+  }
+  .delivary .container .row .hero_left p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .app .container .row .hero_right {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .app .container .row .hero_right h1 {
+    font-size: 1.5rem;
+  }
+  .app .container .row .hero_right p {
+    font-size: 16px;
+    width: 100%;
+  }
+  .app {
+    height: auto;
+  }
+  .foot_sec {
+    grid-template-columns: 1fr;
+  }
+  .foot_first p {
+    width: 90%;
+  }
+  .copyright .container {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .menu_open {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .hero_left h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  .hero_left h1 span {
+    letter-spacing: 0px;
+  }
+  .hero {
+    margin: 1.5rem 0 3rem;
+  }
+  .hero_left > p {
+    word-spacing: 5px;
+    font-size: 14px;
+  }
+  .main_btn > a {
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-right: 2rem;
+  }
+  .play_btn a {
+    padding: 9px 14px;
+    margin-right: 10px;
+  }
+  .play_btn a i {
+    font-size: 12px;
+  }
+  .play_btn span {
+    font-size: 12px;
+  }
+  .services .container h1 {
+    width: 60%;
+    font-size: 1.1rem;
+  }
+  .service_box {
+    gap: 10px;
+  }
+  .about .container .row .hero_right {
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+  .about .container .row .hero_right h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about .container .row .hero_right h1::before {
+    font-size: 15px;
+  }
+  .about .container .row .hero_right p {
+    width: 90%;
+    font-size: 15px;
+  }
+  .delivary .container .row .hero_left {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .delivary .container .row .hero_left h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  .delivary .container .row .hero_left h1::before {
+    font-size: 15px;
+  }
+  .delivary .container .row .hero_left p {
+    width: 90%;
+    font-size: 15px;
+  }
+  .app {
+    height: auto;
+  }
+  .app .container .row .hero_right {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .app .container .row .hero_right p {
+    font-size: 13px;
+  }
+  .foot_sec {
+    grid-template-columns: 1fr;
+  }
+  .foot_first p {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu_open {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .hero_left h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .hero_left h1 span {
+    letter-spacing: 0px;
+  }
+  .hero {
+    margin: 1.5rem 0 3rem;
+  }
+  .hero_left > p {
+    word-spacing: 0;
+    font-size: 11px;
+  }
+  .main_btn > a {
+    padding: 5px 9px;
+    font-size: 12px;
+    margin-right: 0.75rem;
+  }
+  .play_btn a {
+    padding: 4px 11px;
+    margin-right: 10px;
+  }
+  .play_btn a i {
+    font-size: 10px;
+  }
+  .play_btn span {
+    font-size: 10px;
+  }
+  .services .container h1 {
+    font-size: 1.3rem;
+  }
+  .about .container .row .hero_right {
+    padding-left: 40px;
+  }
+  .about .container .row .hero_right h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  .about .container .row .hero_right h1::before {
+    font-size: 12px;
+  }
+  .about .container .row .hero_right p {
+    width: 100%;
+  }
+  .delivary .container .row .hero_left {
+    padding-right: 20px;
+  }
+  .delivary .container .row .hero_left h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  .delivary .container .row .hero_left h1::before {
+    font-size: 12px;
+  }
+  .delivary .container .row .hero_left p {
+    width: 100%;
+  }
+  .app .container .row .hero_right {
+    padding-left: 70px;
+  }
+  .app .container .row .hero_right h1 {
+    font-size: 1.2rem;
+  }
+  .app .container .row .hero_right h1::before {
+    font-size: 12px;
+  }
+  .app .container .row .hero_right p {
+    width: 100%;
+  }
+  .app .container .row .hero_right .btn_side a {
+    padding: 6px 6px;
+  }
+  .app .container .row .hero_right .btn_side a img {
+    width: 15px;
+  }
+  .app .container .row .hero_right .btn_side a span {
+    font-size: 11px;
+  }
+  .foot_first p {
+    width: 90%;
+    text-align: justify;
+  }
+  .foot_third p {
+    width: 100%;
+    text-align: justify;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero_left h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .hero_left h1 span {
+    letter-spacing: -3px;
+  }
+  .hero_left > p {
+    word-spacing: 0;
+    font-size: 14px;
+  }
+  .main_btn > a {
+    padding: 6px 10px;
+  }
+  .play_btn a {
+    padding: 5px 13px;
+  }
+  .play_btn a i {
+    font-size: 11px;
+  }
+  .play_btn span {
+    font-size: 12px;
+  }
+  .delivary .container .row .hero_left {
+    padding-right: 50px;
+  }
+  .about .container .row .hero_right h1 {
+    margin-bottom: 20px;
+  }
+  .about .container .row .hero_right p {
+    width: 90%;
+  }
+  .delivary .container .row .hero_left h1 {
+    margin-bottom: 20px;
+  }
+  .delivary .container .row .hero_left p {
+    width: 90%;
+  }
+  .app .container .row .hero_right h1 {
+    font-size: 1.7rem;
+  }
+  .app .container .row .hero_right p {
+    width: 90%;
+  }
+  .app .container .row .hero_right .btn_side a {
+    padding: 8px 8px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .hero_left h1 {
+    font-size: 73px;
+  }
+}
+@media (min-width: 1600px) {
+}
